@@ -1,0 +1,2 @@
+decisions which are taken when certain conditions are met
+conditions returns true-false on which decisions are taken
