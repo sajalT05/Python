@@ -1,0 +1,85 @@
+// one of the mst popular approaches in programming
+// focuses on using resuable closed
+    --> implemens dry principle
+        --> Do Not Repeat Yourself
+
+* Class 
+// blueprint for creating objects  --> template
+// doesn't consumes memory.
+// object is not is instantiate(verb->called).
+
+// when modules are imported, maximum times, classes are imported.
+
+// class names is written in pascal case
+
+# Why to use OOPS?
+// When application gets huge, it is difficult to maintain such big application.
+//  
+
+'''
+cases
+
+PascalCase -> first character of each word is capital
+camelCase -> first characteer of first word word is in small case, first character of second and consecutive words is in capital format.
+...
+
+* objects
+// instantiantion of class
+// when class is defined, an object is defined.
+// memory is allocated only after object instantiantion
+--> Abstraction
+    // implementation details is hidden from user.
+    // user don't know how and which class is used.
+--> Encapsulation
+    // all methods of an entity are included in separate command.
+    // an entity functions are capsuled/wrapped as a single class.
+// user don't want to know, how the backend works.
+
+...
+
+*** moedlling a problem in OOPS
+// identify following in our problem:
+--> Noun : Class : Employee,UserDetails : PascalCase
+--> Adjective : Attributes : name,permanentAddress,age : camelCase
+--> Verbs : Methods/Functions : getSalary(),investment()  camelCase
+
+** Class Attributes
+// attributes that belongs to a class rather than a particular object
+// specific to each class
+// property of a class
+
+** Instance Attributes
+// attributes that belongs to an object
+// --> take preference over class attributes during assignment and retrieval
+
+*** attrbutes preference
+// first check
+    // assumes first as an instance attributes
+    // check as instance attribute
+    // is attrbute present in object
+        // if not present, attribute will be created
+// second check
+    // check as class attribute
+    // is attribute present in class
+        // if not present, will return error
+
+
+...
+*** self parameter
+// refers to the instance of the class
+// automatically passed from a funciton call of an object
+
+...
+
+** static method
+// sometimes we don't need to use self parameter with function 
+// @staticmethod is the decorator used to define or mark a static function --> important
+
+
+...
+
+** constructor
+// __init__() method
+// special method
+// first run as soon as th eobject is created
+// takes self argument and also other argument

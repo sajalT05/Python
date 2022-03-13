@@ -1,0 +1,47 @@
+// RAM(Random Access Memory) 
+1. Storage is fast and volatile. 
+2. Data stored in RAM are lost once the program is terminated.
+
+// ROM(Read only Memory)
+1. Thus in order to store data forever, we store them in storage devices. 
+2. Data is stored in storage devices in form files.
+
+RAM--> volatile
+ROM--> Non-volatile
+
+// Types of files:
+a. Text files(.txt, .doc)
+b. Binary files(.png, .mp3)
+
+// open("file_name",""mode") function
+a. built-in function
+b. take two parameter/arguments
+c. first parameter i.e. file_name is name of file to be used
+d. second parameter i.e.mode is the more of opening the file, e.g.
+    r --> read mode **default mode
+
+'''
+open() function is a built-in module
+python programme can communicate with files
+'''
+
+// modes of opening file
+r --> open for reading
+w --> open for writing
+a --> open fo appending
+w+ --> open for reading and writing
++ --> open for updating
+ 
+rb --> open for read in binary mode
+rt --> open for reading in text mode
+
+'''
+With statement
+// best way to open and close file automatically.
+// no need to use close() as file is closed automatically
+// how to use-->
+with open("file_path/file.extension", "mode") as fileVariable:
+    fileVariable.read() 
+// file is readed and closed automatically.
+
+    

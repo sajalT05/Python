@@ -66,10 +66,13 @@ print(string1[1:4:2]) #starting from second position and ending at fifth positio
 # length of a string --> print(len(stringname))
 print(len(story))
 
-# check string or characters in a string --> print(stringname.endswith("character_string"))
+# check string or characters in a string 
+# --> print(stringname.endswith("character_string"))
+# --> print(stringname.stratsswith("character_string"))
 # returns true or false
 # boolean
 print(story.endswith("s"))
+print(story.endswith("n"))
 
 # count charcaters occurence in a string --> print(stringname.count("character_string"))
 print(story.count("a"))

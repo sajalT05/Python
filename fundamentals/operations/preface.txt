@@ -1,0 +1,4 @@
+Thumb Rule
+// logical comparison on right hand side are placed in parenthesis
+    // for integers and variables
+    e.g. comparison_variable=(variable1>variable2)

@@ -1,0 +1,29 @@
+// create a class with psacal case
+class ClassName:
+// create class attributes
+classAttribute="String"
+    // methods
+    // create a function with camelCase
+    // function running on class objects
+    // using self parameter
+    def functionName(self):
+        // statements in a function
+        // methods and variables
+        // variables are associated with class
+        print()
+    // static method
+    // without self parameter
+    @staticmethod
+    def functionNameStatic():
+        //statements
+        print()
+    
+
+
+// a new object is created
+// create an instant of ClassName
+newObjectClass=ClassName()
+// object attributes
+// add data to the object
+newObjectClass.string="string"
+newObjectClass.integer=5
