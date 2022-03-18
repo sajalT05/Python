@@ -1,0 +1,48 @@
+Definition:
+// Programmig pattern to write simple and reusable code which can be used as blueprints.
+
+Paradigm (model/pattern):
+// organizes data into objects and functionalities into method.
+// defines object specifications(data and methods) in classes.
+
+# Class: 
+    // Blueprint for an instance.
+    // Instance factories or blueprints.
+
+# Method: 
+    // Any callable attribute defined in the class.
+    // Function.
+-->self
+    //they are defined to the instance when the method is used with an object.
+
+# Object:
+    // unit of a data(having one or more attributes)
+    // belongs to a particular class
+    // with associated functionalities(methods)
+
+# Instance: 
+    // Constructed object of the class.
+    // Know which class they belong to.
+    // can access variablesdefined in a class.
+--> Instance methods:
+    // Variables defined in the class.
+    // accessed throught he instance: instance.method()
+    // when called through method, instance is the first argument of the method.
+    // also known as bound method.
+        // bound to the instance to which they are called.
+        // python first check the instance in the instance and then the class.
+
+
+# Type: 
+    // Indicates class, the instance belongs to.
+
+# Attribute: 
+    // any object value.
+    ->  Class attribute: Variables defined in the class.
+    -> Instance attribute: Variables defined in the instance.
+
+Pilars:
+// Encapsulation
+// Abstraction
+// Inhertiance
+// Polymorphism

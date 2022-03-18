@@ -12,9 +12,13 @@
 
 // class names is written in pascal case
 
+...
+
 # Why to use OOPS?
 // When application gets huge, it is difficult to maintain such big application.
-//  
+//  easier to use, understand, maintain, extend, and collaborate.
+// complexity must always be managed.
+
 
 '''
 cases
@@ -24,6 +28,8 @@ camelCase -> first characteer of first word word is in small case, first charact
 ...
 
 * objects
+// a unit of data(having one or more attributes(instance attrbutes)), of a particular class or type, 
+that has associated functionality(methods).
 // instantiantion of class
 // when class is defined, an object is defined.
 // memory is allocated only after object instantiantion
