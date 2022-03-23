@@ -37,7 +37,8 @@ Paradigm (model/pattern):
     // Indicates class, the instance belongs to.
 
 # Attribute: 
-    // any object value.
+    // any instance or class attribute value.
+    // variables defined in class or instance
     ->  Class attribute: Variables defined in the class.
     -> Instance attribute: Variables defined in the instance.
 

@@ -1,3 +1,7 @@
+'''
+Attributes: values of class variables, defined in instances. 
+'''
+
 class Employee:
     company = "Google"
     salary = 100
@@ -6,9 +10,8 @@ harry = Employee()
 rajni = Employee()
 
 # Creating instance attribute salary for both the objects
-# harry.salary = 300
-# rajni.salary = 400
-harry.salary = 45
+harry.salary = 300
+rajni.salary = 400
 print(harry.salary)
 print(rajni.salary)
 

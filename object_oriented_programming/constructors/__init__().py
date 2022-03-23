@@ -1,3 +1,15 @@
+'''
+__init__()
+a. is a special method.
+b. first run as soon as the object is created.
+c. also known as constructor
+d. take self argument.
+e. can also take further arguments.
+
+Runs automatically when the class instance is created. 
+    i.e. and object is assigned to a class.
+'''
+
 # create class
 # create user class
 # default self parameter constructors

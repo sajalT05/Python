@@ -1,0 +1,38 @@
+Types of inheritance:
+1. single inheritance
+2. multiple inheritance
+3. multilevel inheritance
+
+Single inheritance:child class inherit a single parent class.
+// BASE CLASS --> DERIVED CLASS
+*** Example
+// parent class
+class ParentClass:
+    // methods
+// child class
+class ChildClass(ParentClass):
+    // methods
+
+Multiple inheritance: child class inherit more than one parent class.
+// BASE CLASS'1', BSAE CLASS'2', BASE CLASS'3' --> CHILD CLASS
+*** Example
+// parent class 1
+class ParentClass1:
+    // methods
+class ParentClass2:
+    methods
+class ChildClass(ParentClass1,ParentClass2):
+    // methods
+
+multilevel inheritance: child class becomes a parent class for another child class
+// BASE CLASS --> CHILD CLASS(BASE CLASS') --> CHILD CLASS
+*** Example
+// parent class:
+class ParentClass:
+    // methods
+class ChildClass(ParentClass):
+    // methods
+class NewChildClass(ChildClass):
+    // methods
+
+

@@ -1,0 +1,26 @@
+Methods:
+1. Static Method:
+    a. @staticmethod
+    b. using self as an argument in the function is not needed.
+2. Class Method:
+    a. @classmethod
+    b. chnages class attribute value permannetly in the instance.
+        i. method is called in the instance.
+        ii. value is passed in the arguments.
+        iii. class attribute value is changed.
+            --> as per the conditions defined in method.
+3. Getter Method:
+    a. @property
+        i. creating methods as a property.
+    b. () parenthesis are not used while calling method in instance.
+    c. method behaves like a class attribute.
+4. Setter Method:
+    a. @functionName.setter
+        i. using methods as a property.
+    b. getter method have to be used before.
+    c. class attribute is not changed.
+    d. instance value for class attribute is changed after using the method.
+        i. method is called as a property.
+        ii. value is assigned to the prorperty.
+        iii. value of class attribute value is changed in the instance 
+            --> using condition defined in class method.

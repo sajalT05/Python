@@ -1,5 +1,0 @@
-from functools import partial
-from tensorboard import program
-
-
-// when some part of programis selcted and when run. only that particular part is executed.

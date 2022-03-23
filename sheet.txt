@@ -1,0 +1,4 @@
+1. DataTypes
+    a. Integer
+    b. Characters
+    c. Strings
