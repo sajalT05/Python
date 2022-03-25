@@ -1,0 +1,14 @@
+// NumPy is the fundamental package for scientific computing in Python.
+---
+It is a Python library that provides:
+    a. a multi-dimensional array object, 
+    b. various derived objects (such as masked arrays and matrices), 
+    c. and an assortment of routines for:
+        a. fast operations on arrays, 
+        b. including mathematical, logical, shape manipulation, sorting, selecting, 
+        c. I/O, discrete Fourier transforms, basic linear algebra, 
+        d. basic statistical operations, random simulation and much more.
+---
+// At the core of the NumPy package, is the ndarray object.
+// This encapsulates n-dimensional arrays of homogeneous data types, 
+    with many operations being performed in compiled code for performance.
