@@ -1,0 +1,55 @@
+// quotes
+// single quotes
+'string'
+// double quotes
+"string"
+//triple quotes
+""" this is line one.
+        use in any format.
+            like this           and this."""
+
+// quotes in quotes
+"string''"
+'string""'
+"str\"ing"
+'str'\ing'
+
+// adding strings
+'str''ing'
+'str'+'ing'
+'str','ing'
+
+// operation in strings
+3*'str'+2*'ing'
+    = strstrstringing
+
+// variables opeartion on strings
+variable='str'
+variable+'ing'
+
+// indexing
+variable='string'
+// forward
+variable[0] //character in first position
+    = s
+variable[1] //character in 2nd position
+    = t
+// backward
+variable[-1] //character at last position
+    = g
+variable[-1] //character at 2nd last position
+    = n
+
+// slicing
+variable='string'
+// forward
+variable[0:2] //character from first(included) to 3rd position(excluded)
+    = st
+// backward
+variable[-3:-1] //character from last 3rd(included) to the last position(excluded)
+    = ng
+
+// length of a string
+variable='string'
+len(variable)
+    =6

@@ -1,0 +1,25 @@
+//  The interpreter acts as a simple calculator: 
+    you can type an expression at it and it will write the value. 
+    Expression syntax is straightforward: 
+        the operators +, -, * and / work just like in most other languages 
+        (for example, Pascal or C); 
+    parentheses (()) can be used for grouping.
+
+// addition
+5+3
+// substrcation
+5-3
+// multiplication
+5*3
+// division --> returns a float
+5/3
+// floor division --> returns only integers value by discarding floar=t value
+5//3
+// remainder
+5%3
+// exponents
+5**3
+
+// if any numbersa is float, all integers are converted to float values
+5-2*1.0
+    =3.0

@@ -1,0 +1,9 @@
+Easyness--->
+
+1. yet many things are at least as easy in Python as in those languages.
+2. allows you to split program into modules that can be reused in other programs. 
+3. It comes with a large collection of standard modules,
+    a. that can use as the basis of your programs
+    b. Some of these modules provide things like:
+        i. file I/O, system calls, sockets, and even 
+        ii. interfaces to graphical user interface toolkits like Tk.

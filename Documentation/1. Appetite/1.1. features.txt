@@ -1,0 +1,32 @@
+Features: 
+1. simple to use, 
+2. but it is a real programming language, 
+3. offering much more:
+    structure and support for large programs 
+    than shell scripts or batch files can offer.
+4. offers much more error checking than C
+5. being a very-high-level language, 
+    it has high-level data types built in, such as 
+        a. flexible arrays
+        b. dictionaries. 
+6. applicable to a much larger problem domain than Awk or even Perl,
+
+Easyness--->
+
+7. yet many things are at least as easy in Python as in those languages.
+8. allows you to split program into modules that can be reused in other programs. 
+9. It comes with a large collection of standard modules,
+    that can use as the basis of your programs
+    Some of these modules provide things like:
+    a. file I/O, system calls, sockets, and even 
+    b. interfaces to graphical user interface toolkits like Tk.
+
+Interpretor--->
+
+10. interpreted language, which can save you considerable time during 
+    program development because no compilation and linking is necessary. 
+11. interpreter can be used interactively, 
+    a. which makes it easy to experiment with features of the language, 
+    b. to write throw-away programs, 
+    c. or to test functions during bottom-up program development. 
+    d. It is also a handy desk calculator.

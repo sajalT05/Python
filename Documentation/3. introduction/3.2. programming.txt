@@ -1,0 +1,68 @@
+>>> # Fibonacci series:
+... # the sum of two elements defines the next
+
+<--
+a. The first line contains a multiple assignment: 
+    the variables a and b simultaneously get the new values 0 and 1. 
+b. On the last line this is used again, 
+    demonstrating that the expressions on the right-hand side 
+    are all evaluated first before any of the assignments take place. 
+c. The right-hand side expressions are evaluated from the left to the right.
+-->
+
+... a, b = 0, 1
+
+<--
+a. The while loop executes as long as the condition (here: a < 10) 
+    remains true. 
+b. In Python, like in C, any non-zero integer value is true; 
+    zero is false. 
+c. The condition may also be a string or list value, 
+    in fact any sequence; anything with a non-zero length is true, 
+    empty sequences are false. 
+d. The test used in the example is a simple comparison. 
+    The standard comparison operators are written the same as in C: 
+    1.. < (less than), 
+    2. > (greater than), 
+    3. == (equal to), 
+    4. <= (less than or equal to), 
+    5. >= (greater than or equal to) 
+    6. != (not equal to).
+-->
+
+>>> while a < 10:
+
+<--
+a. The body of the loop is indented: 
+    indentation is Python’s way of grouping statements. 
+b. At the interactive prompt, you have to type a tab or space(s) 
+    for each indented line. 
+c. In practice you will prepare more complicated input for 
+    Python with a text editor; 
+d. all decent text editors have an auto-indent facility. 
+e. When a compound statement is entered interactively, 
+    it must be followed by a blank line to indicate completion 
+    (since the parser cannot guess when you have typed the last line). 
+    Note that each line within a basic block must be indented by the same amount.
+-->
+
+<--
+a. The print() function writes the value of the argument(s) it is given. 
+b. It differs from just writing the expression you want to 
+    write (as we did earlier in the calculator examples) in the way 
+    it handles multiple arguments, floating point quantities, and strings. 
+c. Strings are printed without quotes, 
+    and a space is inserted between items, 
+    so you can format things nicely
+-->
+
+<--
+The keyword argument : end 
+    can be used to avoid the newline after the output, 
+    or end the output with a different string:
+-->
+
+...     print(a, end=',')
+...     a, b = b, a+b
+
+

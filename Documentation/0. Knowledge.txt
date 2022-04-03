@@ -1,0 +1,12 @@
+Python is an:
+1. easy to learn, powerful programming language. 
+2. It has efficient high-level data structures,
+3. simple but effective approach to object-oriented programming. 
+4. an ideal language for scripting and rapid application development:
+    a. elegant syntax
+    b. dynamic typing,
+    c. together with its interpreted nature,
+5. Python interpreter is easily:
+    1. extended with new functions and 
+    2. data types implemented in C or C++ (or other languages callable from C). 
+6. Python is also suitable as an extension language for customizable applications.
