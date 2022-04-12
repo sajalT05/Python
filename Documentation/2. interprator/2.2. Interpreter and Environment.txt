@@ -1,0 +1,1 @@
+// By default, Python source files are treated as encoded in UTF-8.

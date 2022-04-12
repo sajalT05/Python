@@ -14,3 +14,12 @@
         it’s good practice to include docstrings in code that you write, 
         so make a habit of it.
 '''
+'''
+def functionName(parameters):
+    // code wot be executed when function is called //
+    // use parameters for creating programmes //
+
+// call function and pass arguments
+functionName(arguments)
+
+'''

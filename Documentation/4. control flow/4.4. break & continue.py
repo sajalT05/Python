@@ -23,6 +23,11 @@ a try statement’s else clause runs when no exception occurs,
 '''
 
 # continue --> move on to the next iteration of the loop
+'''
+conitnue, 
+    used for false condition, next statement is executed  if 
+        condition returns false
+'''
 for num in range(2, 10):
     if num % 2 == 0:
         print("Found an even number", num)

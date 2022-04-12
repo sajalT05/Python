@@ -7,7 +7,6 @@
         (for example, Pascal or C) 
     parentheses (()) can be used for grouping.
 
-
 // Python can also manipulate strings, 
     which can be expressed in several ways. 
     They can be enclosed,
@@ -15,8 +14,15 @@
          double quotes ("...") with the same result 
     \ can be used to escape quotes
 
-// lists functions as a string, or
-    string is a list of characters.
+// lists
+    1. sliced and indexed like a string.
+    2. can be changed.
+    3. mutable
+
+// string :
+    1. is a list of characters.
+    2. cannot be changed.
+    3. immutable
 
 // Python knows a number of compound data types, 
     used to group together other values. 
