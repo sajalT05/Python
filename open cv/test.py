@@ -1,5 +1,10 @@
 import cv2 as cv
-img=cv.imread('resources/image/shlok.jpg')
+
+# reading images
+img=cv.imread('resources/images/shlok.jpg')
 cv.imshow('shlok',img)
 cv.waitKey(0)
+
+# reading videos
+vdo=cv.videoCapture('resources/videos/shlok.mp4')
 
