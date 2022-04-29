@@ -1,4 +1,4 @@
-"""learning URL Configuration
+"""project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -14,10 +14,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from home import views
+from django.urls import path,include
 
+# change django admin text
+admin.site.site_header = "Project Admin"
+admin.site.site_title = "Project Admin Portal"
+admin.site.index_title = "Welcome to Project Admin Portal"
+
+# url dispatching
 urlpatterns = [
+#	path('', .urls),
+# homepage url --> change [appName] to your app name
+# black requests to app/urls.py
+    path("", include("app.urls")),
+# admin url
     path('admin/', admin.site.urls),
-    path('', views.index, name="home")
 ]
+    

@@ -1,4 +1,6 @@
-1. create virtua environment.
+1. create virtual environment.
+-->
+environemnt name: [virtualEnvironmentName]
 -->
 virtualenv virtualEnvironmentName
 

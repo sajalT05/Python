@@ -1,23 +1,30 @@
-1. create virtua environment.
+1. open folder in vs code.
+
+2. open terminal. 
+
+3. create project. run command
 -->
-virtualenv virtualEnvironmentName
-
-2. open powershell as administrator.
-
-3. change directory to working folder.
-
-4. allow running scripts in virtual environment. run command.
+project name: [projectName]
 -->
-Set-ExecutionPolicy Unrestricted
+django-admin startproject projectName
 
-5. select option [A(Yes to All)]
+4. start project in broswer. run command
 -->
-A
+python manage.py runserver
 
-6. move to IDE.
-
-7. open the virtual environment. open in powershell. run command.
+5. create an app. run command.
 -->
-.\virtualEnvironmentName\Scripts\activate.ps1
+application name: [appName]
+-->
+python manage.py startapp appName
 
-8. 
+6. create urls.py file in app folder [appName]
+-->
+snippet: bpurls
+-->
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
