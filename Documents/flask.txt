@@ -1,0 +1,23 @@
+1. create virtua environment.
+-->
+virtualenv virtualEnvironmentName
+
+2. open powershell as administrator.
+
+3. change directory to working folder.
+
+4. allow running scripts in virtual environment. run command.
+-->
+Set-ExecutionPolicy Unrestricted
+
+5. select option [A(Yes to All)]
+-->
+A
+
+6. move to IDE.
+
+7. open the virtual environment. open in powershell. run command.
+-->
+.\virtualEnvironmentName\Scripts\activate.ps1
+
+8. 

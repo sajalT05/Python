@@ -1,4 +1,0 @@
-• Import the package, aka import pandas as pd
-• A table of data is stored as a pandas DataFrame
-• Each column in a DataFrame is a Series
-• You can do things by applying a method to a DataFrame or Series
