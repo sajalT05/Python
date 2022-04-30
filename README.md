@@ -5,12 +5,17 @@
 ### Language
 1. [Python](https://www.python.org/)
 
+### Tools
+1. [Visual Studio Code](https://code.visualstudio.com/)
+2. [Jupyter Notebook](https://jupyter.org/)
+
 ### Libraries
 1. [Numpy](https://numpy.org/)
 2. [Pandas](https://pandas.pydata.org/)
 
-### Tools
-1. [Visual Studio Code](https://code.visualstudio.com/)
+### Web Framework
+1. [Django](https://www.djangoproject.com/)
+2. [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 
 ### Education
 #### [CodeWithHarry](https://codewithharry.com/)
