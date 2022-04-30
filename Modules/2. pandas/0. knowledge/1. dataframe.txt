@@ -1,0 +1,35 @@
+//  To manually store data in a table, create a DataFrame. 
+
+//  When using a Python dictionary of lists, the dictionary keys
+        will be used as column headers and the values 
+        in each list as columns of the DataFrame.
+
+//  A DataFrame 
+        is a 2-dimensional data structure that can store data of different types 
+        (including characters, integers, floating point values, categorical data 
+            and more) in columns. 
+        It is similar to a spreadsheet, a SQL table or the data. frame in R.
+
+//  Each column in a DataFrame is a Series 
+
+//  When selecting a single column of a pandas DataFrame, 
+        the result is a pandas Series. To select the column, use the
+        column label in between square brackets [].
+
+//  in pandas dataframe, the selection of a single column is very similar 
+        to selection of dictionary values based on the key.
+
+//  The data types in this DataFrame are:
+        a. integers (int64), 
+        b. floats (float64) 
+        c. strings (object)
+
+//      When asking for the dtypes, 
+        no brackets are used! 
+        dtypes is an attribute of a DataFrame and Series. 
+
+//      Attributes of DataFrame or Series do not need brackets. 
+        Attributes represent a characteristic of a DataFrame/Series,
+                whereas a method (which requires brackets) do 
+                something with the DataFrame/Series as 
+                introduced in the first tutorial.

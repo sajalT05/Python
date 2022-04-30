@@ -1,0 +1,54 @@
+NumPy gives us the best of both worlds: 
+    a. element-by-element operations are the “default mode” when an ndarray is involved, 
+    b. but the element-by-element operation is speedily executed by pre-compiled C code. In NumPy
+
+...
+
+The points about sequence size and speed are particularly important in scientific 
+computing. As a simple example, consider the case of multiplying each element in a 
+1-D sequence with the corresponding element in another sequence of the same
+length. If the data are stored in two Python lists, a and b, we could iterate 
+over each element.
+
+c = []
+for i in range(len(a)):
+c.append(a[i]*b[i])
+
+This produces the correct answer, but if a and b each contain millions of numbers, 
+we will pay the price for the inefficiencies of looping in Python. 
+We could accomplish the same task much more quickly in C by writing (for clarity we
+neglect variable declarations and initializations, memory allocation, etc.)
+
+for (i = 0; i < rows; i++): {
+c[i] = a[i]*b[i];
+}
+
+This saves all the overhead involved in interpreting the Python code and manipulating Python objects, but at the expense
+of the benefits gained from coding in Python. Furthermore, the coding work required 
+increases with the dimensionality of our data.
+
+...
+
+In the case of a 2-D array, for example, the C code (abridged as before) expands to:
+
+for (i = 0; i < rows; i++): {
+for (j = 0; j < columns; j++): {
+c[i][j] = a[i][j]*b[i][j];
+}
+}
+
+.
+
+c = a * b
+
+does what the earlier examples do, at near-C speeds, but with the code simplicity we expect from something based on
+Python. Indeed, the NumPy idiom is even simpler! This last example illustrates two of NumPy’s features which are the
+basis of much of its power: vectorization and broadcasting.
+---
+
+---
+NumPy fully supports an object-oriented approach, starting, once again, with ndarray. 
+For example, ndarray is a class, possessing numerous methods and attributes. 
+    Many of its methods are mirrored by functions in the outer-most NumPy namespace, allowing the programmer to code in whichever paradigm they prefer. 
+    This flexibility has allowed the NumPy array dialect and NumPy ndarray class to become the de-facto language of multi-dimensional data interchange used in Python.
+---

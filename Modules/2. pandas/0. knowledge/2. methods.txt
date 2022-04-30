@@ -1,0 +1,3 @@
+// The describe()
+    provides a quick overview of the numerical data in a DataFrame
+
