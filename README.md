@@ -13,10 +13,6 @@
 1. [Numpy](https://numpy.org/)
 2. [Pandas](https://pandas.pydata.org/)
 
-### Web Framework
-1. [Django](https://www.djangoproject.com/)
-2. [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-
 ### Education
 #### [CodeWithHarry](https://codewithharry.com/)
 1. [Python for Beginners](https://www.youtube.com/watch?v=gfDE2a7MKjA)
