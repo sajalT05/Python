@@ -13,5 +13,8 @@
 1. [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Education
-1. [CodeWithHarry]
-    a. (https://www.codewithharry.com/videos/python-tutorial-easy-for-beginners) --> [YouTube Video](https://www.youtube.com/watch?v=gfDE2a7MKjA).
+[CodeWithHarry]
+1. [Python for Beginners](https://www.youtube.com/watch?v=gfDE2a7MKjA)
+2. [Flask]
+3. [Django]
+[FreeCodeCamp]
