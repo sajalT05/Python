@@ -1,0 +1,22 @@
+// file not found for static or template.
+error: templates doesn't exist
+instance: python manage.py runserver 1000 
+cause:
+    a. template directory not registered in settings.py.
+    b. spelling mistake in name.
+    c. path not defined.
+
+// for .html files in subfolder
+    a. .html page: [page]
+    b. subfolder in template folder: [subfolder]
+    1. urls.py
+->
+# page<subfolder:
+	path('subfolder/page', views.page, name="page" ),
+
+    2. views.py
+->
+# method project
+def subfolder_page(request):
+    return render(request, 'subfolder/page.html')
+

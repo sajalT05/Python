@@ -1,0 +1,11 @@
+// create superuser 
+    1. run in terminal
+-->
+python manage.py createsuperuser
+    
+    2. set username and password
+
+// run django application
+
+// go to login page
+    a. localhost/admin

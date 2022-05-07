@@ -1,0 +1,19 @@
+1. create folders in main project directory:
+    a. static 
+        i. to store all image/audio/text/.css/.js files.
+        ii. create sub folders.
+            ... images
+            ... audio
+            ... texts
+            ... css
+            ... js
+    b. templates
+        i.to store all html files.
+        ii. create files.
+            ... template.html
+            ... index.html
+
+            
+2. create html files in template folders
+    a. index.html file for homepage
+    b. pageName.html for other 

@@ -1,0 +1,21 @@
+// models: information about the data
+
+// create models in models.py
+    a. column name in database: [column_name]
+    b. datatype of column fields: [TextField,CharField,IntegerField,EmailField]
+    c. maximum length of elements: [max_length=100]
+    d. implement SQL format 
+    e. selected column name as title: [column_name]
+-->
+from django.db import models
+
+# Create your models here.
+# forms database
+class Database(models.Model):
+    # creating datable from 
+    # column_name=models.TextField(max_length=50)
+    table_title=models.TextField(max_length=50)
+    # string representation of the object
+    # attributes of the saved form in the database
+    def __str__(self):
+        return self.column_name

@@ -1,0 +1,7 @@
+// change text
+-->
+# django admin header customization
+# text
+admin.site.site_header = "Customer Support Management"
+admin.site.site_title = "DOYANS"
+admin.site.index_title = "Super Admin Dashboard"

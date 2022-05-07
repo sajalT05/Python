@@ -1,0 +1,24 @@
+// template.html file 
+    a. base .html file working as a template
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>{% block title %}{% endblock title %} </title>
+        {% block cssFileName %}{% endblock cssFileName %}
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
+
+// add codes to template.html file from bootstrap
+
+// create another .html file in templates directory
+    a. fethcing basic html codes from template.html
+
+-->
+{% extends 'fileName.html' %}

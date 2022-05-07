@@ -1,0 +1,11 @@
+//migrations: SQL equivalent of the data with Django using models
+
+// perform migrations
+1. makemigrations, convert python models class into sql friendly format
+-->
+python manage.py makemigrations
+
+
+2. migrate, create tables by running sql commands
+-->
+python manage.py migrate
