@@ -3,8 +3,6 @@
         i. to store all image/audio/text/.css/.js files.
         ii. create sub folders.
             ... images
-            ... audio
-            ... texts
             ... css
             ... js
     b. templates

@@ -1,7 +1,0 @@
-1. open specific project folder in vs code.
-2. Create app
-	a. Run command in terminal
-	b. application name: [mainApp]
-
--->code       
-python manage.py startapp mainApp

@@ -13,20 +13,26 @@ from mainApp.models import Database
     e. variable name for form fields in backend, defined views.py: [variableName]
     f. column name for form field in database, defined in models.py: [column_name] 
     g. names of input form fields, defined in .html: [form_field_name]
+    i. method of page: [PageViewMethod]
+    j. database class defined in models: [DatabaseClass]
+
+
+def PageViewMethod(request):
 -->
-# forms
-def form(request):
+# change form page method: [form]
+# variableName = request.POST['form_field_name']
+# databaeObject=models.DatabaseClass(column_name=variableName)
     #  if a post is made, then the data is saved in the database    
     if request.method == 'POST':
         # get the data from the form
         # handle form
-        # variableName = request.POST['form_field_name']
         titleForm=request.POST['form_title']
         # print database fields in terminal
         # print(variableName)
         # save the data in the database
         # create a new object of the class Database
-        databaseObject=models.Database(column_name=variableName)
+        # databaseObject=models.DatabaseClass(column_name=variableName)
+        databaeObject=models.DatabaseClass(column_name=variableName)
         # save the object in the database
         databaseObject.save()
         # return success message in terminal

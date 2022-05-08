@@ -9,13 +9,14 @@
 -->
 from django.db import models
 
-# Create your models here.
-# forms database
+# Create your models here
+# column_name=models.TextField(max_length=50)
+# forms database: [Database]
 class Database(models.Model):
     # creating datable from 
-    # column_name=models.TextField(max_length=50)
+    # -- create models for form database
     table_title=models.TextField(max_length=50)
     # string representation of the object
-    # attributes of the saved form in the database
+    # attribute title of the saved form in the admin backend database
     def __str__(self):
         return self.column_name

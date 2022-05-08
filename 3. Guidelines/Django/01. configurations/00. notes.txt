@@ -6,6 +6,7 @@ cause:
     b. spelling mistake in name.
     c. path not defined.
 
+
 // for .html files in subfolder
     a. .html page: [page]
     b. subfolder in template folder: [subfolder]

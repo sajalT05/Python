@@ -4,7 +4,8 @@
     c. show model in admin section
 -->
 from django.contrib import admin
-from mainApp.models import Database
+from mainApp import models
 
 # Register your models here.
-admin.site.register(Database)
+# form models class: [Database]
+admin.site.register(models.Database)

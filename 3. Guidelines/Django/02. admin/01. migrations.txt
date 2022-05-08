@@ -1,4 +1,6 @@
-//migrations: SQL equivalent of the data with Django using models
+// migrations: SQL equivalent of the data with Django using models
+
+// open terminal
 
 // perform migrations
 1. makemigrations, convert python models class into sql friendly format

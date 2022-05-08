@@ -1,0 +1,8 @@
+// open specific project folder in vs code.or.change path in terminal.
+
+// Create app
+	a. Run command in terminal
+	b. application name: [mainApp]
+-->code       
+python manage.py startapp mainApp
+

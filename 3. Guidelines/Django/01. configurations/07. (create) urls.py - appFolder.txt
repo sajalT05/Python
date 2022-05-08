@@ -32,6 +32,6 @@ urlpatterns = [
 # page name: [pageName]
 #	path('pathName', views.viewsFunctionName, name="pageName" ),
 # add path address below -->
-# #page:
+# # page:
 #	path('pathName', views.viewsFunctionName, name="pageName" ),
 ]
