@@ -1,11 +1,11 @@
 // register model
     a. application folder name: [mainApp]
-    b. database class in models: [Database]
+    b. database class in models: [DatabaseClass]
     c. show model in admin section
 -->
 from django.contrib import admin
-from mainApp import models
+from mainApp.models import DatabaseClass
 
 # Register your models here.
-# form models class: [Database]
-admin.site.register(models.Database)
+# form models class: [DatabaseClass]
+admin.site.register(DatabaseClass)

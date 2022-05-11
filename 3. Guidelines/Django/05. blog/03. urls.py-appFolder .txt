@@ -1,0 +1,15 @@
+// add path address in urls.py
+    a. in template directory
+    ->
+    pathName: [pageName]
+    b. in subfolder in template directory
+    ->
+    pathName: [subfolder/pageName]
+	
+-->
+# blog:
+# blog page:
+	path('blog/blog', views.blog, name="blog" ),
+# blogpost page:
+	path('blog/blogpost<str:slug>', views.blogpost, name="blog" ),
+]

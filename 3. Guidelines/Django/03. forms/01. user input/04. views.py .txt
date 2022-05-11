@@ -1,8 +1,9 @@
 // import database class from models.py in views.py
     a. main application folder: [mainApp]
-    b. database class in models.py: [Database]
+    b. database class in models.py: [DatabaseClass]
+
 -->
-from mainApp.models import Database
+from mainApp.models import DatabaseClass
 
 
 // update form method in views.py
@@ -16,9 +17,9 @@ from mainApp.models import Database
     i. method of page: [PageViewMethod]
     j. database class defined in models: [DatabaseClass]
 
-
-def PageViewMethod(request):
+   
 -->
+def PageViewMethod(request):
 # change form page method: [form]
 # variableName = request.POST['form_field_name']
 # databaeObject=models.DatabaseClass(column_name=variableName)
@@ -37,3 +38,4 @@ def PageViewMethod(request):
         databaseObject.save()
         # return success message in terminal
         print("data has been added in the database")
+    return render(request, 'pageName.html')

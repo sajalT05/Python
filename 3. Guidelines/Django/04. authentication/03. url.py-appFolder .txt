@@ -1,0 +1,9 @@
+// add in urlpatterns dictionary
+
+urlpatterns=[
+-->
+# sign-in/sign-out pages
+# login
+	path('login/', views.login, name='login'),
+# logout
+	path('logout/', views.logoutuser, name='logout'),

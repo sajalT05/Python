@@ -6,13 +6,16 @@
     c. maximum length of elements: [max_length=100]
     d. implement SQL format 
     e. selected column name as title: [column_name]
+    f. model class: [DatabaseClass]
+
+
 -->
 from django.db import models
 
 # Create your models here
 # column_name=models.TextField(max_length=50)
-# forms database: [Database]
-class Database(models.Model):
+# forms database class: [DatabaseClass]
+class DatabaseClass(models.Model):
     # creating datable from 
     # -- create models for form database
     table_title=models.TextField(max_length=50)

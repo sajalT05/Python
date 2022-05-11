@@ -1,0 +1,10 @@
+// template.html file 
+    a. base .html file working as a template
+
+// add codes to template.html file from bootstrap
+
+// create another .html file in templates directory
+    a. fethcing basic html codes from template.html
+
+-->
+{% extends 'fileName.html' %}

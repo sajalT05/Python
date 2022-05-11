@@ -1,0 +1,19 @@
+// blog page
+    a. slug: dynamic web end path address of blog in
+    b. import class from models.py file
+
+
+-->
+from mainApp.models import Blog
+
+-->
+# blog page
+def blog(request):
+    
+    return render(request, 'blog/blog.html')
+# blog post page
+def blogpost(slug,request):
+    return render(request, 'blog/blogpost.html')
+# blog search page
+def blogsearch(request):
+    return render(request, 'blog/blogsearch.html')
