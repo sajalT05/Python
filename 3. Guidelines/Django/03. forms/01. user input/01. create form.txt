@@ -1,28 +1,31 @@
 // create form in .html page
-    a. add form attributes
-    b. form self page = [formPage]
-    c. action
-        i. browser to return the form data to the URL /formPage/
--->
-<form action="/formPage" method="post">
-</form>
 
-// check name attributes of all form fields in .html page
+// form attributes
+    a. name, id
+        // check 'name' attributes of all form fields in .html page
+        1. 'name' similar to database column heads
+        2. colmn head name: [column_name]
+    b. form self page = [formPage]
+
+// add form functionalities
+    a. browser to return the form data to the URL /formPage/
+        -->
+        <form action="/formPage" method="post">
+        </form>
 
 // csrf token registeration in .html page 
     a. after <form> tag
     b. avoid Cross-Site Request Forgery  attacks
--->
-{% csrf_token %}
+        -->
+        {% csrf_token %}
 
 // give attributes to form fields
     a. id, name
-        1. similar to database column heads
-        2. colmn head name: [column_name]
+        
 
 
 
-
+example
 ---->
 <form action="/formPage/" method="post">
 {% csrf_token %}

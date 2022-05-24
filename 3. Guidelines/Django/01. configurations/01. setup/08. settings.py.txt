@@ -14,7 +14,13 @@ INSTALLED_APPS = [
     'mainApp',
 ]
 
-2. register static folder
+2. register templates folder
+    a. in DIRS key of TEMPLATES dictionary.
+-->
+    'DIRS': ["templates"],
+
+
+3. register static folder
     a. below, STATIC_URL = 'static/'
 
 --> 
@@ -23,12 +29,3 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     '/var/www/static/',
 ]
-
-
-3. register templates folder
-    a. in DIRS key of TEMPLATES dictionary.
--->
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["templates"],
