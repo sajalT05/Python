@@ -1,0 +1,10 @@
+try:
+    # statement(s)
+except IndexError:
+    # optional block
+except ValueError:
+    # Handling of exception (if required)
+else:
+    # execute if no exception
+finally:
+    # Some code .....(always executed)

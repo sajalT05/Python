@@ -1,0 +1,14 @@
+// hashability: 
+    1. feature of python, tells an object hs hash value or not.
+    2. if hashable, can be used as a key in dictionary or element in set.
+
+// object is hashable if it's hash value doens't change in the lifetime.
+
+// built in hash methods:
+__hash()
+
+// hash value depends upon value stored.
+
+// inbuilt functions are not hashable.
+
+// user defined functions are hashable.
