@@ -5,7 +5,8 @@
 // object is hashable if it's hash value doens't change in the lifetime.
 
 // built in hash methods:
-__hash()
+__hash__()
+hash()
 
 // hash value depends upon value stored.
 

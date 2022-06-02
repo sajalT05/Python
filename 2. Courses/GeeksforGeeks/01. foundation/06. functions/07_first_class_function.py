@@ -30,6 +30,3 @@ def functionName5(arg):
 print(functionName5(10)(20))
 functionName7=functionName5(11)
 print(functionName7(21))
-
-    
-

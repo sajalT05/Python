@@ -1,0 +1,16 @@
+// Multiprocessing refers to the ability of a system to support 
+    more than one processor at the same time. 
+    Applications in a multiprocessing system are broken to smaller 
+    routines that run independently. 
+    The operating system allocates these 
+    threads to the processors improving performance of the system.
+
+// A multiprocessing system can have:
+    multiprocessor, i.e. a computer with more than one central processor.
+    multi-core processor, i.e. a single computing component 
+        with two or more independent actual processing units (called “cores”).
+
+// multiprocessing module provides a Manager class 
+    which controls a server process. 
+    Hence, managers provide a way to create data that 
+    can be shared between different processes.

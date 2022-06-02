@@ -7,6 +7,11 @@ cause:
     c. path not defined.
 
 
+//create base folder for base template .html files
+    a. navbar.html
+    b. footer.html
+    c. template.html
+
 // for .html files in subfolder
     a. .html page: [page]
     b. subfolder in template folder: [subfolder]
