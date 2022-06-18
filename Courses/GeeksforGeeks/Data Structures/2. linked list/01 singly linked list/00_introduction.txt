@@ -1,0 +1,9 @@
+advantages:
+    1. dynamic size
+    2. ease of insertion and deletion.
+
+drawbacks:
+    1. random access is not allowed.
+        a. access elements sequentially from head node.
+    2. extra memory space for the pointer is required.
+    3. not chache friendly.

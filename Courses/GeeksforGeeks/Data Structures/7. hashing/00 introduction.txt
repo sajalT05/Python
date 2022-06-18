@@ -1,0 +1,21 @@
+Hashing is a technique or process of mapping keys, 
+    values into the hash table by using a hash function. 
+    It is done for faster access to elements. 
+    The efficiency of mapping depends on the efficiency of the hash function used.
+    Hashing is a popular technique for storing and retrieving data as fast as possible. 
+
+Basic Operations:
+    HashTable: This operation is used in order to create a new hash table.
+    Delete: This operation is used in order to delete a particular key-value 
+        pair from the hash table.
+    Get: This operation is used in order to search a key inside the hash table 
+        and return the value that is associated with that key.
+    Put: This operation is used in order to insert a new key-value air 
+        inside the hash table.
+    DeleteHashTable: This operation is used in order to delete the hash table
+
+Hashing Components:
+    1) Hash Table: An array that stores pointers to records corresponding to a 
+        given phone number.
+    2) Hash Function: A function that maps a phone number to an index in the hash table.
+    
