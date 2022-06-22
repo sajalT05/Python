@@ -1,0 +1,12 @@
+worst case: 
+    calculate upper bound on the running time of algorithm.
+    consider cases taht takes maximum time for operation.
+
+average case:
+    take all possible inputs, and calculate computing time for all of inputs.
+    take average of all computing times.
+
+best case:
+    calculate lower bound on the running time of algorithm.
+    consider cases taht takes minimum time for operation.
+

@@ -1,0 +1,17 @@
+Python’s sorted() – Timsort (Hybrid of Mergesort and Insertion Sort)
+
+    Best Case Time Complexity- O(N)
+    Average Case Time Complexity- O(NlogN)
+    Worse Case Time Complexity- O(NlogN)
+    Auxiliary Space- O(N)
+    Stable- Yes
+    Adaptive- Yes
+
+Python’s sort() – Timsort (Hybrid of Mergesort and Insertion Sort)
+
+    Best Case Time Complexity- O(N)
+    Average Case Time Complexity- O(NlogN)
+    Worse Case Time Complexity- O(NlogN)
+    Auxiliary Space- O(N)
+    Stable- Yes
+    Adaptive- Yes

@@ -1,0 +1,26 @@
+External sorting 
+    a. term for a class of sorting algorithms that can 
+        handle massive amounts of data. 
+    b. External sorting is required when the data being sorted 
+        do not fit into the main memory of a computing device 
+        (usually RAM) and instead, they must reside in the 
+        slower external memory (usually a hard drive). 
+    c. External sorting typically uses a hybrid sort-merge strategy. 
+    d. In the sorting phase, chunks of data small enough to fit in 
+        main memory are read, sorted, and written out to a temporary file. 
+    e. In the merge phase, the sorted sub-files are 
+        combined into a single larger file.
+    
+
+When We do External Sorting :
+1.  When the unsorted data is too large to perform 
+    sorting in computer internal memory then we use external sorting.
+2.  In external sorting we use the secondary device. 
+    in a secondary storage device, we use the tape disk array. 
+3. when data is large like in merge sort and quick sort.
+4. Quick Sort: best average runtime.
+5. Merge Sort: Best Worse case time.
+6. To perform sort-merge, join operation on data.
+7. To perform order by the query.
+8. To select duplicate element.
+9. Where we need to take large input from the user.

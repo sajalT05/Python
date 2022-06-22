@@ -1,0 +1,32 @@
+An in-place sorting algorithm 
+    uses constant space for producing the output (modifies the given array only). 
+    It sorts the list only by modifying the order of the elements within the list.
+
+Types Of Sorting :
+
+    Internal Sorting
+            a. When all data is placed in the main memory or internal memory 
+                then sorting is called internal sorting.
+            b. In internal sorting, the problem cannot take input beyond its size.
+            Example: heap sort, bubble sort, selection sort, quick sort, 
+                heap sort, shell sort, insertion sort.
+    External Sorting
+            a. When all data that needs to be sorted cannot be placed in memory 
+                at a time, the sorting is called external sorting.
+            b. External Sorting is used for the massive amount of data. 
+            c. Merge Sort and its variations are typically used for external sorting. 
+            d. Some external storage like hard disks and CDs are used for external sorting.
+            Example: Merge sort, Tag sort, Polyphase sort, Four tape sort, 
+                External radix sort, Internal merge sort, etc.
+
+Sort Stability :
+
+    Stable Sort
+        a. When two same data appear in the same order in sorted data without 
+            changing their position is called stable sort.
+        Example: merge sort, insertion sort, bubble sort, merge sort.
+    Unstable Sort
+        a. When two same data appear in the different order in sorted data it is 
+            called unstable sort.
+        Example: quick sort, heap sort, shell sort.
+

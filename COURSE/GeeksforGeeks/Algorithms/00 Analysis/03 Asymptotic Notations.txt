@@ -1,0 +1,75 @@
+Asymptotic notations 
+    are mathematical tools to represent the time complexity 
+    of algorithms for asymptotic analysis.
+
+
+1) Θ Notation: 
+    The theta notation bounds a function from above and below, 
+        so it defines exact asymptotic behavior.
+    Θ provides exact bounds .
+    The above definition means, if f(n) is theta of g(n), 
+        then the value f(n) is always between c1*g(n) and c2*g(n) for 
+        large values of n (n >= n0). 
+    The definition of theta also requires that f(n) must be non-negative 
+        for values of n greater than n0.
+    A simple way to get the Theta notation of an expression is 
+        to drop low-order terms and ignore leading constants. 
+    e.g. 3n3 + 6n2 + 6000 = Θ(n3)
+
+{f(n): there exist positive constants c1, c2 and n0 such 
+                 that 0 <= c1*g(n) <= f(n) <= c2*g(n) for all n >= n0}
+
+2) Big O Notation: 
+    The Big O notation defines an upper bound of an algorithm, 
+        it bounds a function only from above.
+    O provides exact or upper bounds .
+
+O(g(n)) = { f(n): there exist positive constants c and 
+                  n0 such that 0 <= f(n) <= c*g(n) for 
+                  all n >= n0}
+
+3) Ω Notation: 
+    Just as Big O notation provides an asymptotic upper bound on a function, 
+        Ω notation provides an asymptotic lower bound. 
+    Ω Notation can be useful when we have a lower bound on the 
+        time complexity of an algorithm.
+    Ω provides exact or lower bounds .
+ 
+
+Ω (g(n)) = {f(n): there exist positive constants c and
+                  n0 such that 0 <= c*g(n) <= f(n) for
+                  all n >= n0}.
+
+
+Properties of Asymptotic Notations : 
+1. General Properties : 
+    If f(n) is O(g(n)) then a*f(n) is also O(g(n)) ; where a is a constant.
+    If f(n) is Θ(g(n)) then a*f(n) is also Θ(g(n)) ; where a is a constant. 
+    If f(n) is Ω (g(n)) then a*f(n) is also Ω (g(n)) ; where a is a constant.
+
+2. Transitive Properties :
+    If f(n) is O(g(n)) and g(n) is O(h(n)) then f(n) = O(h(n)) .
+    If f(n) is Θ(g(n)) and g(n) is Θ(h(n)) then f(n) = Θ(h(n)) .
+    If f(n) is Ω(g(n)) and g(n) is Ω(h(n)) then f(n) = Ω(h(n)) .
+
+3. Reflexive Properties :
+    If f(n) is given then f(n) is O(f(n)). 
+        Since MAXIMUM VALUE OF f(n) will be f(n) ITSELF !
+    If f(n) is given then f(n) is Θ(f(n)).
+    If f(n) is given then f(n) is Ω (f(n)).
+
+4. Symmetric Properties :  
+   If f(n) is Θ(g(n)) then g(n) is Θ(f(n)).     
+
+5. Transpose Symmetric Properties:
+    If f(n) is O(g(n)) then g(n) is Ω (f(n)). 
+    If f(n) is Ω(g(n)) then g(n) is O (f(n)).
+
+6. Some More Properties : 
+
+    1.) If f(n) = O(g(n)) and f(n) = Ω(g(n)) then f(n) = Θ(g(n))
+    2.) If f(n) = O(g(n)) and d(n)=O(e(n)) 
+          then f(n) + d(n) = O( max( g(n), e(n) )) 
+    3.) If f(n)=O(g(n)) and d(n)=O(e(n)) 
+           then f(n) * d(n) = O( g(n) * e(n) ) 
+ 

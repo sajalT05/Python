@@ -1,0 +1,3 @@
+Stability is mainly important when we have key value pairs with 
+    duplicate keys possible (like people names as keys and their details as values). 
+    And we wish to sort these objects by keys.

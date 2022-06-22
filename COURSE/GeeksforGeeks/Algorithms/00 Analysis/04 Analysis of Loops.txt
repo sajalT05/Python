@@ -1,0 +1,74 @@
+
+1) O(1): 
+    Time complexity of a function (or set of statements) 
+        is considered as O(1) if it doesn’t contain loop, 
+        recursion, and call to any other non-constant time function. 
+
+    // Here c is a constant   
+   for (int i = 1; i <= c; i++) {  
+        // some O(1) expressions
+   }
+   // time complexity = O(1)
+
+2) O(n): 
+    Time Complexity of a loop is considered as O(n) 
+        if the loop variables are incremented/decremented by a constant amount. 
+
+   // Here c is a positive integer constant   
+   for (int i = 1; i <= n; i += c) {  
+        // some O(1) expressions
+   }
+    // time complexity = O(n)
+
+3) O(nc): 
+    Time complexity of nested loops is equal to the number of 
+    times the innermost statement is executed.
+    
+    //
+       for (int i = 1; i <=n; i += c) {
+       for (int j = 1; j <=n; j += c) {
+          // some O(1) expressions
+       }
+   }
+   // time complexity = O(n^c)
+
+4) O(Logn): 
+    Time Complexity of a loop is considered as O(Logn) 
+        if the loop variables are divided/multiplied by a constant amount. 
+        And also for recursive call in recursive function the Time Complexity 
+        is considered as O(Logn).
+
+    // Here c is a positive integer constant
+   for (int i = 1; i <=n; i *= c) {
+       // some O(1) expressions
+   }
+   for (int i = n; i > 0; i /= c) {
+       // some O(1) expressions
+   }
+    // time complexity = O(Logn)
+
+    //Recursive function
+    void recurse(n)
+    {
+        if(n==0)
+            return;
+        else{
+            // some O(1) expressions
+        }
+        recurse(n-1);
+    }
+    // time complexity = O(Logn)
+
+5) O(LogLogn):
+    Time Complexity of a loop is considered as O(LogLogn) 
+        if the loop variables are reduced/increased exponentially 
+        by a constant amount.
+    // Here c is a constant greater than 1   
+   for (int i = 2; i <=n; i = pow(i, c)) { 
+       // some O(1) expressions
+   }
+   //Here fun is sqrt or cuberoot or any other constant root
+   for (int i = n; i > 1; i = fun(i)) { 
+       // some O(1) expressions
+   }
+    // time complexity = O(LogLogn)

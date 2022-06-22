@@ -1,0 +1,4 @@
+pseudo-polynomial algorithm
+    is an algorithm whose worst-case time complexity 
+    is polynomial in the numeric value of input (not number of inputs).
+
