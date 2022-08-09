@@ -1,5 +1,0 @@
-// Run project in browser
-	a. Run command in terminal
-	b. change port by adding port number at end
--->code    
-python manage.py runserver 1000

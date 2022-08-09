@@ -1,7 +1,0 @@
-// change text
--->
-# django admin header customization
-# text
-admin.site.site_header = "Admin Section Header"
-admin.site.site_title = "Title"
-admin.site.index_title = "Index Page Title"

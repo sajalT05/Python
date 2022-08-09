@@ -1,3 +1,0 @@
-// href path in navbar
-    a. /file
-    b. /subfolder/file

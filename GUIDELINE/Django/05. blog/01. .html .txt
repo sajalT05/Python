@@ -1,3 +1,0 @@
-// create a blogtemplate.html page
-
-// extend blogtemplate.html page template in other pages

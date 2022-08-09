@@ -1,8 +1,0 @@
-1. Open folder in vs code
-2. Open terminal
-3. Create project
-	a. Run command in terminal
-	b. project name: [projectName]
-
--->code
-django-admin startproject projectName
